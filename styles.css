@@ -231,7 +231,8 @@ body {
 
 /* Add Button */
 .add-button {
-    position: absolute;
+    position: sticky;
+    float: right;
     bottom: 25px;
     right: 25px;
     width: 56px;
