@@ -8,14 +8,51 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navigation">
-        <div class="nav-content">
+    
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div id="sidebar-top">
+        <div class="sidebar-logo">
+            <img src="icon.png" alt="Logo">
+        </div>
+
+        <nav class="sidebar-nav">
+            <a href="#" class="nav-item active">
+                <i class="fas fa-list"></i> Ausbildungsnachweise
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-pen"></i> Tätigkeit erfassen
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-folder"></i> Vorlagen
+            </a>
+        </nav>
+        </div>
+
+        <div class="sidebar-bottom">
+            <a href="#" class="nav-item">
+                <i class="fas fa-sign-out-alt"></i> Abmelden
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-cog"></i> Einstellungen
+            </a>
+            <div class="user-info">
+                <i class="fas fa-user"></i> Max Musterazubi
+                <i class="fas fa-angle-down"></i>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Section -->
+    <main class="main-content">
+
+        <div class="header-content">
             <a href="index.html" class="burger-menu">
                 <i class="fas fa-arrow-left"></i>
             </a>
             <h1>Woche 15.09. - 21.09.</h1>
         </div>
-    </nav>
     
     <div class="container">
         <div class="wireframe">
@@ -98,5 +135,6 @@
             </div>
         </div>
     </div>
+    </main>
 </body>
 </html>
