@@ -207,3 +207,104 @@ body {
     height: 100vh;
     overflow: hidden;
 }
+
+
+.nav-item {
+    color: #000;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.2s;
+}
+
+.nav-item:hover,
+.nav-item.active {
+    background-color: #8f8f8f;
+}
+
+.sidebar-bottom {
+    border-top: 1px solid #999;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.user-info {
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.95rem;
+    background-color: #999;
+}
+
+/* Layout adjustment for sidebar */
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Details page sections */
+.week-summary {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.summary-item {
+    background-color: #e6e6e6;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.summary-item .number {
+    font-size: 1.6rem;
+    font-weight: 600;
+    display: block;
+}
+
+.summary-item .label {
+    font-size: 0.9rem;
+    color: #444;
+}
+
+.daily-activities {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.day-entry {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.day-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.activity-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.activity-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activity-summary {
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+}
+

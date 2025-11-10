@@ -8,95 +8,130 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navigation">
-        <div class="nav-content">
-            <a href="index.html" class="burger-menu">
-                <i class="fas fa-arrow-left"></i>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-logo">
+            <img src="icon.png" alt="Logo">
+        </div>
+
+        <nav class="sidebar-nav">
+            <a href="index.html" class="nav-item">
+                <i class="fas fa-list"></i> Ausbildungsnachweise
             </a>
-            <h1>Woche 15.09. - 21.09.</h1>
-        </div>
-    </nav>
-    
-    <div class="container">
-        <div class="wireframe">
-            <div class="week-summary">
-                <div class="summary-item">
-                    <span class="number">19</span>
-                    <span class="label">Tätigkeiten</span>
-                </div>
-                <div class="summary-item">
-                    <span class="number">41:27</span>
-                    <span class="label">beschäftigt</span>
-                </div>
-            </div>
+            <a href="#" class="nav-item">
+                <i class="fas fa-pen"></i> Tätigkeit erfassen
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-folder"></i> Vorlagen
+            </a>
+        </nav>
 
-            <div class="daily-activities">
-                <div class="day-entry">
-                    <div class="day-header">
-                        <span class="day">Freitag</span>
-                        <span class="date">19.09.2025</span>
-                    </div>
-                    <div class="activity-list">
-                        <div class="activity-item">
-                            <span class="activity-name">Daily Scrum</span>
-                            <span class="duration">0:15</span>
-                        </div>
-                        <div class="activity-item">
-                            <span class="activity-name">Netzwerkverwalter</span>
-                            <span class="duration">4:00</span>
-                        </div>
-                        <div class="activity-item">
-                            <span class="activity-name">Kundenanfragen bearbe...</span>
-                            <span class="duration">1:30</span>
-                        </div>
-                        <div class="activity-item">
-                            <span class="activity-name">Einrichtung n. Arbeitsplatz</span>
-                            <span class="duration">1:30</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="day-entry">
-                    <div class="day-header">
-                        <span class="day">Donnerstag</span>
-                        <span class="date">18.09.2025</span>
-                    </div>
-                    <div class="activity-summary">
-                        <span class="activity-count">4 Tätigkeiten</span>
-                        <span class="total-time">8:12</span>
-                    </div>
-                </div>
-
-                <div class="day-entry">
-                    <div class="day-header">
-                        <span class="day">Mittwoch</span>
-                        <span class="date">17.09.2025</span>
-                    </div>
-                    <div class="activity-summary">
-                        <span class="activity-count">3 Tätigkeiten</span>
-                        <span class="total-time">8:25</span>
-                    </div>
-                </div>
-
-                <div class="day-entry">
-                    <div class="day-header">
-                        <span class="day">Dienstag</span>
-                        <span class="date">16.09.2025</span>
-                    </div>
-                    <div class="activity-summary">
-                        <span class="activity-count">4 Tätigkeiten</span>
-                        <span class="total-time">8:00</span>
-                    </div>
-                </div>
-
-                <div class="day-entry">
-                    <div class="day-header">
-                        <span class="day">Montag</span>
-                        <span class="date">15.09.2025</span>
-                    </div>
-                </div>
+        <div class="sidebar-bottom">
+            <a href="#" class="nav-item">
+                <i class="fas fa-sign-out-alt"></i> Abmelden
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fas fa-cog"></i> Einstellungen
+            </a>
+            <div class="user-info">
+                <i class="fas fa-user"></i> Max Musterazubi
+                <i class="fas fa-angle-down"></i>
             </div>
         </div>
-    </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <nav class="navigation">
+            <div class="nav-content">
+                <a href="index.html" class="burger-menu">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+                <h1>Woche 15.09. - 21.09.</h1>
+            </div>
+        </nav>
+        
+        <div class="container">
+            <div class="wireframe">
+                <div class="week-summary">
+                    <div class="summary-item">
+                        <span class="number">19</span>
+                        <span class="label">Tätigkeiten</span>
+                    </div>
+                    <div class="summary-item">
+                        <span class="number">41:27</span>
+                        <span class="label">beschäftigt</span>
+                    </div>
+                </div>
+
+                <div class="daily-activities">
+                    <div class="day-entry">
+                        <div class="day-header">
+                            <span class="day">Freitag</span>
+                            <span class="date">19.09.2025</span>
+                        </div>
+                        <div class="activity-list">
+                            <div class="activity-item">
+                                <span class="activity-name">Daily Scrum</span>
+                                <span class="duration">0:15</span>
+                            </div>
+                            <div class="activity-item">
+                                <span class="activity-name">Netzwerkverwalter</span>
+                                <span class="duration">4:00</span>
+                            </div>
+                            <div class="activity-item">
+                                <span class="activity-name">Kundenanfragen bearbe...</span>
+                                <span class="duration">1:30</span>
+                            </div>
+                            <div class="activity-item">
+                                <span class="activity-name">Einrichtung n. Arbeitsplatz</span>
+                                <span class="duration">1:30</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="day-entry">
+                        <div class="day-header">
+                            <span class="day">Donnerstag</span>
+                            <span class="date">18.09.2025</span>
+                        </div>
+                        <div class="activity-summary">
+                            <span class="activity-count">4 Tätigkeiten</span>
+                            <span class="total-time">8:12</span>
+                        </div>
+                    </div>
+
+                    <div class="day-entry">
+                        <div class="day-header">
+                            <span class="day">Mittwoch</span>
+                            <span class="date">17.09.2025</span>
+                        </div>
+                        <div class="activity-summary">
+                            <span class="activity-count">3 Tätigkeiten</span>
+                            <span class="total-time">8:25</span>
+                        </div>
+                    </div>
+
+                    <div class="day-entry">
+                        <div class="day-header">
+                            <span class="day">Dienstag</span>
+                            <span class="date">16.09.2025</span>
+                        </div>
+                        <div class="activity-summary">
+                            <span class="activity-count">4 Tätigkeiten</span>
+                            <span class="total-time">8:00</span>
+                        </div>
+                    </div>
+
+                    <div class="day-entry">
+                        <div class="day-header">
+                            <span class="day">Montag</span>
+                            <span class="date">15.09.2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
