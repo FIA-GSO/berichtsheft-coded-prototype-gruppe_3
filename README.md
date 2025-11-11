@@ -10,3 +10,10 @@ Der Benutzer klickt einen Tag an und kann die gespeicherten Tätigkeiten inspizi
 ![](mobile/screenshots/Detailansicht.png)
 
 # Desktop Ansicht
+Der User klickt eine Woche an, hier sichtbar anhand des Handsymbols, der Hintergrund wird beim Hover verdunkelt.
+
+![](desktop/screenshots/Listenansicht.png)
+
+Der Benutzer klickt einen Tag an und kann die gespeicherten Tätigkeiten inspizieren
+
+![](desktop/screenshots/Detailansicht.png)
